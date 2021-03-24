@@ -3,7 +3,8 @@ import pandas as pd
 import os
 import streamlit as st
 
-
+st.header('Stock Analysis')
+st.subheader('Enter a ticker (uppercase)')
 ticker = st.text_input("Ticker", 'AAPL')
 api = "f684dcaa18d79b3692c1feeea9b19f7a"
 
