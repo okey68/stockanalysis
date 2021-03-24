@@ -1,0 +1,2 @@
+streamlit==0.74.1
+FundamentalAnalysis==0.2.6
