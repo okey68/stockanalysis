@@ -5,8 +5,6 @@ import streamlit as st
 from datetime import date
 import datetime as dt
 import pandas_datareader.data as web
-import matplotlib.pyplot as plt
-from matplotlib import style
 from dateutil.relativedelta import relativedelta
 
 
