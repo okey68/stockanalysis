@@ -9,6 +9,8 @@ from dateutil.relativedelta import relativedelta
 
 
 st.set_page_config(layout="wide")
+col1, col2 = st.beta_columns(2)
+
 st.header('Stock Analysis')
 st.subheader('Enter a ticker (uppercase)')
 
@@ -54,8 +56,6 @@ if st.button("Download Data"):
 
 
 ##OUTPUT##
-col1, col2 = st.beta_columns(2)
-
 
 col1.write('Company Profile')
 col1.table(df)
