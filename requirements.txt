@@ -1,2 +1,4 @@
 streamlit==0.74.1
 FundamentalAnalysis==0.2.6
+pandas==1.2.0
+pandas-datareader==0.9.0
